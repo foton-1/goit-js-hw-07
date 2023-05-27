@@ -35,3 +35,10 @@ function onGalleryElClick(event) {
 
   //   modalWindowClick();
 }
+
+// Ініціалізація бібліотеки SimpleLightbox
+let lightbox = new SimpleLightbox('.gallery a', {
+  captionDelay: 250,
+  captionsData: 'alt',
+  /* options */
+});
